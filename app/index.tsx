@@ -1,13 +1,9 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Gwapo ko</Text>
-      <Image
-        source={require("../assets/images/icon.png")}
-        style={{ width: 200, height: 200, borderRadius: 50 }}
-      />
+      <Text className="text-red-400 text-5xl">Gwapo ko</Text>
     </View>
   );
 }
